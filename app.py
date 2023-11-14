@@ -98,8 +98,3 @@ with YoutubeDL(yt_opts) as ydl:
 trailer_clips.append(VideoFileClip('countdown_timer.mp4'))
 final_clip = concatenate_videoclips(trailer_clips, method="compose")
 final_clip.write_videofile("combined_trailers.mp4")
-
-
-    
-
-# print(final_movie_list)
